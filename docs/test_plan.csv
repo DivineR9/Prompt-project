@@ -1,0 +1,13 @@
+Test,Input,Category,Expected behavior,Actual result (fill after run),Pass/Fail (fill after run)
+1,Short machine-learning TXT notes,Normal,Outputs topics notes and relevant questions,,
+2,DOCX notes with headings,Normal,Extracts readable content and produces topic-wise notes,,
+3,PDF with selectable text,Normal,Extracts text and generates study pack,,
+4,Math formulas in notes,Normal,Preserves formulas or flags unclear extraction,,
+5,Multi-topic notes,Normal,Distinguishes topics in notes and practice questions,,
+6,Long text near character limit,Edge,Processes within limit or shows clear limit,,
+7,Notes with spelling mistakes,Edge,Maintains meaning in readable notes,,
+8,Repeated paragraphs,Edge,Avoids repeated content in final notes,,
+9,Empty file or input,Invalid,Warns user to provide valid readable text,,
+10,Unsupported extension,Invalid,Rejects unsupported formats,,
+11,Image-only scanned PDF,Edge,Explains missing readable text instead of inventing content,,
+12,Incorrect Gemini API key,Invalid,Shows a clear API failure message,,

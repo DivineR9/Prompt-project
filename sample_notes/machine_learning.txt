@@ -1,0 +1,13 @@
+Machine Learning — Lecture Notes
+
+Machine learning is a field of artificial intelligence in which systems learn patterns from data rather than being explicitly programmed for every task.
+
+Supervised learning uses labeled training examples. For example, a classifier may learn to label email as spam or not spam. Classification predicts a category, whereas regression predicts a numerical value.
+
+Unsupervised learning works with unlabeled data. Clustering groups similar examples based on their features. K-means is an example of a clustering algorithm.
+
+A dataset is often divided into training and test sets. The training set is used to fit a model. The test set is used to evaluate the trained model on unseen examples.
+
+Overfitting happens when a model learns training details too closely and performs poorly on new data. Underfitting happens when a model is too simple to capture useful patterns.
+
+Accuracy is the number of correct predictions divided by the total number of predictions. It may be misleading for highly imbalanced datasets.
